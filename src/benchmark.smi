@@ -1,0 +1,8 @@
+_require "basis.smi"
+
+structure Benchmark =
+struct
+    val repeat: int -> (unit -> 'a) -> unit
+    val bench: int -> (unit -> 'a) -> LargeInt.int
+    val benchmark: string -> int -> (unit -> 'a) -> unit
+end

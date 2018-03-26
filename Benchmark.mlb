@@ -1,0 +1,9 @@
+$(MLTON_ROOT)/basis/basis.mlb
+
+local
+  src/benchmark.sml
+in
+
+  structure Benchmark
+
+end

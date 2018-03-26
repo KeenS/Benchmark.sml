@@ -1,0 +1,11 @@
+target all
+    sources
+       src/benchmark.sml
+    end
+end
+
+target clean
+    pre hooks
+        rm *.o
+    end
+end

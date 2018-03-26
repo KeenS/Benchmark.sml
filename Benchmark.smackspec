@@ -1,0 +1,7 @@
+provides: Benchmark 0.0.1
+remote: git git://github.com/KeenS/Benchmark.sml.git
+description: A simple benchmark util
+maintainer: κeen
+keywords: bench, benchmark
+bug-url: https://github.com/KeenS/Benchmark.sml/issues
+license: MIT

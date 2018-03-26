@@ -1,0 +1,7 @@
+library
+
+  structure Benchmark
+
+is
+
+  src/benchmark.sml
