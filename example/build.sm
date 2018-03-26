@@ -1,0 +1,25 @@
+target all
+    pkg Benchmark v0.0.1
+
+    sources
+       src/main.sml
+    end
+
+    ffi
+        lnkopt "-I/home/kim/.smackage/lib -L/home/kim/.smackage/lib"
+    end
+
+    option entry = src/main.smi
+    option compiler = smlsharp
+    option output = main
+    option smlflags = "-I/home/kim/.smackage/lib"
+    post hooks
+       ./main
+    end
+end
+
+target clean
+    pre hooks
+        rm -f src/*.o main
+    end
+end

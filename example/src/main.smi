@@ -1,0 +1,2 @@
+_require "basis.smi"
+_require "Benchmark/v0.0.1/Benchmark.smi"
